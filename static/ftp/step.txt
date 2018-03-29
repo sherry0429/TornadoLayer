@@ -1,0 +1,7 @@
+1.实现一系列Adapter
+2.将一系列Adapter注入到BaseManager
+    2.1.BaseManager给每个Adapter注册一个Handler，并且在Handler中调用具体的Adapter方法
+    2.2.BaseManager启动TornadoApplication
+3.启动BaseManager
+
+
